@@ -1,7 +1,7 @@
-console.log('Hello World!');
-
-let coronaGrande: number[] = [50, 34];
-let velocita: number[] = [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+let corone: number[] = [50, 34];
+console.log('Corona grande', corone);
+let velocita: number[] = [13, 14, 15, 16, 17, 18, 19, 21, 23, 26]
+console.log('velocita', velocita);
 
 interface sviluppo {
 	corona: number;
@@ -11,7 +11,7 @@ interface sviluppo {
 
 let sviluppi: sviluppo[] = [];
 
-coronaGrande.forEach((c) => {
+corone.forEach((c) => {
 	velocita.forEach((v) => {
 		let s = {
 			corona: c,

@@ -1,8 +1,9 @@
-console.log('Hello World!');
-var coronaGrande = [50, 34];
-var velocita = [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26];
+var corone = [50, 34];
+console.log('Corona grande', corone);
+var velocita = [13, 14, 15, 16, 17, 18, 19, 21, 23, 26];
+console.log('velocita', velocita);
 var sviluppi = [];
-coronaGrande.forEach(function (c) {
+corone.forEach(function (c) {
     velocita.forEach(function (v) {
         var s = {
             corona: c,
